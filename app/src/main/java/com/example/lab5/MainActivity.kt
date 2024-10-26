@@ -1,5 +1,6 @@
 package com.example.lab5
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.CheckBox
@@ -35,7 +36,13 @@ class MainActivity : AppCompatActivity() {
         button = findViewById(R.id.button)
 
         button.setOnClickListener(){
+            val intent = Intent(this, PriceActivity::class.java)
+            intent.putExtra("CHECKBOX1", checkbox1.isChecked)
+            intent.putExtra("CHECKBOX2", checkbox2.isChecked)
+            intent.putExtra("CHECKBOX3", checkbox3.isChecked)
+            intent.putExtra("COUNT", count.text.toString())
 
+            startActivity(intent)
 
         }
 

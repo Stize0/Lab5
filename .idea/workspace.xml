@@ -21,10 +21,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="460b2fef-3fbc-443f-80fd-056718fc76b6" name="Changes" comment="build layout file for first activity">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="460b2fef-3fbc-443f-80fd-056718fc76b6" name="Changes" comment="Create new Activity and add logical part for objects on first Activity">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab5/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab5/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab5/PriceActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab5/PriceActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_price.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_price.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,12 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729961789416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create new Activity and add logical part for objects on first Activity">
+      <option name="closed" value="true" />
+      <created>1729963405946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729963405946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="build layout file for first activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="build layout file for first activity" />
+    <MESSAGE value="Create new Activity and add logical part for objects on first Activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new Activity and add logical part for objects on first Activity" />
   </component>
 </project>
