@@ -1,6 +1,8 @@
 package com.example.lab5
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 class PriceActivity : AppCompatActivity() {
 
     public lateinit var  text: TextView
+    public lateinit var  button: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,6 +31,7 @@ class PriceActivity : AppCompatActivity() {
             insets
         }
 
+        button = findViewById(R.id.button2)
         text = findViewById(R.id.textView9)
         val countValue = countValueString?.toIntOrNull() ?: 0
         var result: Int = 0
@@ -46,6 +50,9 @@ class PriceActivity : AppCompatActivity() {
         }
         text.text = result.toString()
 
-
+        button.setOnClickListener(){
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
