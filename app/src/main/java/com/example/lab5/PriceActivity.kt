@@ -38,13 +38,13 @@ class PriceActivity : AppCompatActivity() {
 
         when {
             isChecked1 -> {
-                    result = countValue * 100
+                    result = countValue * 2000
                 }
             isChecked2 -> {
-                result = countValue * 150
+                result = countValue * 2500
             }
             isChecked3 -> {
-                result = countValue * 300
+                result = countValue * 3500
             }
 
         }
